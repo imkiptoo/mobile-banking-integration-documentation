@@ -1,0 +1,58 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --ifm-color-primary: #185ABD;
+    --ifm-color-primary-dark: #1148AE;
+    --ifm-color-primary-darker: #0E3FA6;
+    --ifm-color-primary-darkest: #082E98;
+    --ifm-color-primary-light: #8CADDE;
+    --ifm-color-primary-lighter: #BACEEB;
+    --ifm-color-primary-lightest: #F5F8FC;
+    --ifm-code-font-size: 95%;
+    /*--ifm-table-cell-padding: 0.5rem;*/
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+thead > tr > th:nth-child(1) {
+    text-align: left;
+}
+
+.docusaurus-highlight-code-line {
+    background-color: rgb(72, 77, 91);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+}
+
+.token.punctuation {
+    color: #000000 !important;;
+}
+
+.token.property {
+    color: #871094 !important;;
+}
+
+.token.operator {
+    color: #000000 !important;;
+}
+
+.token.string {
+    color: #067D17 !important;
+}
+
+.token {
+    font-family: 'JetBrains Mono', monospace !important;
+}
+
+table td {
+    vertical-align: top;
+}
